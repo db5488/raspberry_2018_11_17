@@ -12,7 +12,10 @@ c = "Hello";
 d = 'Hello';
 e = True;
 
-x = input("Enter Value:");
-print(type(x));
-print("輸入值為:",x);
-    
+#x = input("Enter Value:");
+#print(type(x));
+#print("輸入值為:",x);
+
+tempC = input("Enter temp in C:");
+tempF = int(tempC) * 9 / 5 + 32;
+print("華氏:",str(tempF),"度C");
