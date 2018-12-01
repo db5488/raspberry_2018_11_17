@@ -29,7 +29,7 @@ googol = 10 **1000
 print(type(googol))
 print(float('99'));
 print("Nay,'said the naysayer");
-poem = '''t is a long established fact that a reader will be distracted by the r
+poem = '''it is a long established fact that a reader will be distracted by the r
 eadable content of a page when looking at its layout.
 The point of using Lorem I
 psum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes
@@ -63,4 +63,24 @@ print(letters[10:]);
 print(letters[12:15]);
 print(letters[-3:]);
 print(len(letters));
+
+todos = 'get gloves, get mask, give cat vitamins,call ambulance';
+
+def myFunction():
+    pass;
+
+todosList = todos.split(',');
+print(todosList);
+
+todosJoin = '||'.join(todosList);
+print(todosJoin);
+print('poem\'s len:',len(poem));
+print(poem.startswith('it was'));
+word = 'is';
+print(poem.rfind('is'));
+print(poem[3:5]);
+print(poem.count('is '));
+poem = poem.replace('is', 'was');
+print(poem);
+ 
 
