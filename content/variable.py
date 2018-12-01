@@ -35,3 +35,32 @@ The point of using Lorem I
 psum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes
 on purpose (injected humour and the like).'''
 
+bottles = 99;
+base = '';
+base += 'current inventory:';
+base += str(bottles);
+print(base)
+
+palindrome = 'A man,\nA plan,\nA canal:\nPanama.'
+print(palindrome);
+print("hello,\"robert\"");
+
+a = "Duck.";
+b = a;
+c = "Grey Duck!"
+print(a + b + c);
+
+letters = "abcdefghijklmnopqrstuvwxyz";
+print(letters[0]);
+print(letters[1]);
+print(letters[2]);
+print(letters[-1]);
+#print(letters[1000]);
+
+print(letters[:])
+print(letters[20:]);
+print(letters[10:]);
+print(letters[12:15]);
+print(letters[-3:]);
+print(len(letters));
+
