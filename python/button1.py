@@ -2,11 +2,11 @@ from gpiozero import Button, LED
 from signal import pause
 
 def userPressed():
-    led.on();
+    led.toggle();
     print("pressed");
 
 def userReleased():
-    led.off();
+    #led.off();
     print("released");
 
 led = LED(27)
