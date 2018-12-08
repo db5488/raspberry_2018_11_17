@@ -45,7 +45,7 @@ marxes[2] = 'Wanda';
 print(marxes);
 
 marxes = ['Groucho', 'Chico', 'Harpo'];
-print(marxes[0:2]);
+print('test:',marxes[0:2]);
 print(marxes[::2]);
 print(marxes[::-2]);
 print(marxes[::-1])
@@ -78,4 +78,41 @@ print(marxes);
 marxes = ['Groucho', 'Chico', 'Harpo'];
 marxes.pop();
 print(marxes);
+
+marxes = ['Groucho', 'Chico', 'Harpo'];
+sorted_marxes = sorted(marxes);
+print("sorted_marxes:{1}_{0}".format(sorted_marxes,"hello"));
+marxes.sort(reverse=True);
+print(marxes);
+
+print(len(marxes));
+
+#mutable
+a = [1, 2, 3];
+b = a.copy();
+print(a);
+#b = a;
+
+a[0] = 'surprise';
+print(a);
+print(b);
+
+#tuple
+empty_tuple = ();
+print(empty_tuple);
+
+
+one_marx = "Groucho",
+print(one_marx);
+
+marx_tuple = ('Groucho', 'Chico', 'Harpo')
+print(marx_tuple)
+
+(a, b, c) = marx_tuple;
+print(a);
+print(b);
+print(c);
+
+
+
 
