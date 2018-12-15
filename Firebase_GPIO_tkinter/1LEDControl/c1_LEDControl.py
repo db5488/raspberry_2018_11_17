@@ -2,9 +2,9 @@ from tkinter import *
 
 def appInterface(window):
     frame = Frame(window,borderwidth=1,relief=GROOVE);
-    Label(frame,text="LED Controler",font=("Helvetica", 24),anchor=W).pack(fill=X);
-    Button(frame,text="open").pack(side=LEFT);
-    Button(frame,text="close").pack(side=LEFT);
+    Label(frame,text="LED Controler",font=("Helvetica", 20),anchor=W).pack(fill=X);
+    Button(frame,text="open",pady=50,font=("Helvetica", 20)).pack(side=LEFT,fill=X,expand=True,padx=10,pady=20);
+    Button(frame,text="close",pady=50,font=("Helvetica", 20)).pack(side=LEFT,fill=X,expand=True,padx=10,pady=20);
     frame.pack(padx=10,pady=10,fill=X);
 
 
