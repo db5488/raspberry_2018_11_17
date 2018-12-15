@@ -1,7 +1,8 @@
 from tkinter import *
 
-def appInterface(win):
-    frame = Frame(win,border-width=1,relief=GROOVE);
+def appInterface(window):
+    frame = Frame(window,borderwidth=1,width=250,height=250,relief=GROOVE);
+    frame.pack(padx=10,pady=10,fill=X);
 
 
 if __name__ == '__main__':
