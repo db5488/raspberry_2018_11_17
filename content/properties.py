@@ -1,6 +1,6 @@
 class Duck:
     def __init__(self,input_name):
-        self._hidden_name = input_name;
+        self.__hidden_name = input_name;
         
     @property
     def name(self):
@@ -24,6 +24,7 @@ class Duck:
         
 
 fowl = Duck("robert");
+print(fowl.__hidden_name);
 print(fowl.nick);
 fowl.nick = "alice";
 print(fowl.nick);
